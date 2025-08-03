@@ -16,6 +16,7 @@ local desiredItems = {
     ["Spinosaurus"] = true,
     ["Kitsune"] = true,
     ["Corrupted Kitsune"] = true,
+    ["Kodama"] = true,
     ["Mochi Mouse"] = true,
     ["Dilophosaurus"] = true,
     ["French Fry Ferret"] = true,
