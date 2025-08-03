@@ -1,0 +1,89 @@
+local desiredItems = {
+    ["Red Fox"] = true,
+ --   ["Petal Bee"] = true,
+    ["Dragonfly"] = true,
+    ["Raccoon"] = true,
+    ["Queen Bee"] = true,
+    ["Blood Owl"] = true,
+    ["Disco Bee"] = true,
+    ["Butterfly"] = true,
+ --   ["Praying Mantis"] = true,
+    ["Mimic Octopus"] = true,
+    ["Chicken Zombie"] = true,
+    ["Fennec Fox"] = true,
+    ["Night Owl"] = true,
+    ["T-Rex"] = true,
+    ["Spinosaurus"] = true,
+    ["Kitsune"] = true,
+    ["Corrupted Kitsune"] = true,
+    ["Mochi Mouse"] = true,
+    ["Dilophosaurus"] = true,
+    ["French Fry Ferret"] = true,
+}
+
+
+-- tim farm truoc khi hoat dong
+local farm
+for _, f in ipairs(workspace:WaitForChild("Farm"):GetChildren()) do
+    local ok, owner = pcall(function()
+        return f.Important.Data.Owner.Value
+    end)
+    if ok and owner == player.Name then
+        farm = f
+        print("tim  farm:", f.Name)
+        break
+    end
+end
+
+if not farm then
+    warn("khong tim  farm")
+    return
+end
+-- tach chuoi tim item
+local function cleanItemName(rawName)
+    return rawName:match("^(.-)%s*%[") or rawName
+end
+
+local function postSingleItem(itemName)
+    local playerName = player.Name
+    local encodedItem = string.gsub(itemName, " ", "+")
+    local encodedPlayer = string.gsub(playerName, " ", "+")
+    local encodedData = "item=" .. encodedItem .. "&player=" .. encodedPlayer .. "&deviceid=" .. deviceID
+
+    local response = request({
+        Url = requestURL,
+        Method = "POST",
+        Headers = {
+            ["Content-Type"] = "application/x-www-form-urlencoded",
+        },
+        Body = encodedData
+    })
+end
+
+-- buy item shop ze 
+task.spawn(function()
+    while true do
+	game:GetService("ReplicatedStorage").GameEvents.BuyEventShopStock:FireServer("Zen Seed Pack")
+	task.wait(1)
+	game:GetService("ReplicatedStorage").GameEvents.BuyEventShopStock:FireServer("Pet Shard Tranquil")
+	task.wait(1)
+	game:GetService("ReplicatedStorage").GameEvents.BuyEventShopStock:FireServer("Pet Shard Corrupted")
+        wait(1800)
+    end
+end)
+
+-- Tim item va change
+while true do
+    local backpack = player:FindFirstChild("Backpack")
+    if backpack then
+        for _, item in ipairs(backpack:GetChildren()) do
+            if item:IsA("Tool") then
+                local cleanedName = cleanItemName(item.Name)
+                if desiredItems[cleanedName] then
+                    postSingleItem(cleanedName)
+                end
+            end
+        end
+    end
+    task.wait(90)
+end
