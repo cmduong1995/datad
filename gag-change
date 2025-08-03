@@ -1,5 +1,4 @@
 local player = game.Players.LocalPlayer
-local deviceID = "09f3f4a5bee1f4e8dabfa7e77e8f93c54cefc8ed8f84031cfc5262b3b737c08"
 local desiredItems = {
     ["Red Fox"] = true,
  --   ["Petal Bee"] = true,
