@@ -1,0 +1,56 @@
+setfpscap(3)
+getgenv().gagConfig = {
+    -- Event:
+    CRAFT_EVENT = { "Small Toy" },
+    GET_HONEY = true,
+    BUY_TRAVELING_MERCHANT = { "Bee Egg", "Loquat", "Feijoa", "Pitcher Plant" },
+    BUY_EVENT_SHOP = { "Zen Seed Pack", "Zen Egg","Pet Shard Tranquill", "Pet Shard Corrupted" },
+    MAX_EVENT_RESTOCK_SHECKLES = 0,
+    PLACE_ALL_EVENT_STAFF = true,
+    
+    -- General:
+    AUTO_UPDATE_RESTART = true,
+    REDEEM_CODES = {},
+    EXTRA_PET_SLOTS = 5,
+    EXTRA_EGG_SLOTS = 5,
+    OPEN_ALL_SEED_PACK = true,
+
+    MAX_PLANTS = 260,
+    DESTROY_UNTIL_MIN_PLANTS = 200,
+    DELETE_PLANTS_AFTER_MAX = { "Carrot", "Strawberry", "Blueberry", "Orange Tulip", "Apple", "Tomato", "Corn", "Daffodil", "Bamboo", "Apple", "Pumpkin", "Watermelon", "Cactus", "Dragon Fruit", "Mango", "Grape", "Mushroom","Pumpkin","Cacao","Pepper","Prickly Pear","Bell Pepper","Kiwi","Loquat","Pineapple","Pear","Lucky Bamboo","Daffodil","Paradise Petal","Dezen","Taro Flower" },
+    LIMIT_PLANT_SEED = {["Apple"] = 5, ["Tomato"] = 5, ["Corn"] = 10,["Bamboo"] = 10, ["Coconut"] = 5, ["Pumpkin"] = 10, ["Watermelon"] = 5, ["Cactus"] = 5,["Mango"] = 5, ["Pepper"] = 5, ["Cacao"] = 5, ["Pineapple"] = 10 ,["Sugar Apple"] = 5,["Elder Strawberry"] = 5,["Giant Pinecone"] = 5,["Banana"] = 5,["Peach"] = 5,["Peach"] = 5,["Bell Pepper"] = 5,["Maple Apple"] = 5,["Kiwi"] = 5,["Beanstalk"] = 5},
+    
+    BUY_EGGS = { "Bug Egg", "Bee Egg", "Paradise Egg", "Mythical Egg", "Rare Summer Egg", "Common Summer Egg"},
+    PLANT_EGGS = { "Gourmet Egg","Dinosaur Egg", "Corrupted Zen Egg", "Zen Egg", "Primal Egg", "Anti Bee Egg", "Bee Egg", "Night Egg", "Bug Egg", "Paradise Egg", "Mythical Egg", "Common Summer Egg"},
+    
+    BUY_SEED_SHOP = { "Elder Strawberry Seed","Elder Strawberry", "Giant Pinecone", "Burning Bud", "Sugar Apple", "Ember Lily", "Beanstalk", "Pepper", "Mushroom", "Grape", "Mango", "Cactus", "Bamboo", "Apple", "Pumpkin", "Watermelon", "Daffoldil", "Corn", "Tomato", "Orange Tulip", "Strawberry", "Carrot", "Dragon Fruit", "Coconut", "BlueBerry","Pineapple" },
+    KEEP_SEEDS = {"Wild Carrot","Mushroom","Grape","Dragon Fruit","Loquat","Lucky Bamboo","Soft Sunshine","Monoblooma","Paradise Petal","Onion","Jalapeno","Crown Melon","Sugarglaze","Tall Asparagus","Grand Tomato","Taco Fern","Artichoke","Dezen","Hinomai","Taro Flower","Orange Tulip","Blueberry"},
+    KEEP_SEEDS_AFTER_MAX_PLANTS = { "Dragon Fruit", "BlueBerry","Daffoldil","Orange Tulip", "Strawberry", "Carrot","Prickly Pear","Loquat","Paradise Petal", "Burning Bud", "Ember Lily", "Mushroom", "Grape"},
+    
+    FAVOURITE_FRUIT_MUTATIONS = {},  -- Stop Autosell
+    SKIP_HARVEST_MUTATIONS = {},  -- Stop Harvest
+
+    KEEP_PETS = { "Spaghetti Sloth","French Fry Ferret", "Mochi Mouse","Corrupted Kitsune","Corrupted Kodama", "Moon Cat", "Raiju", "Toucan","Scarlet Macaw", "Hyacinth Macaw", "Mizuchi", "Tanchozuru", "Kodama", "Kappa", "Kitsune", "Koi", "Bald Eagle", "Dilophosaurus", "Spinosaurus", "Brontosaurus","Axolotl", "T-Rex", "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Night Owl", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "Red Giant Ant", "Pack Bee", "Blood Owl", "Chicken Zombie","Bear Bee", "Praying Mantis","Blood Kiwi", ["Capybara"] = 2, ["Starfish"] = 2},
+    KEEP_PETS_WEIGHT = 5,
+    KEEP_PETS_AGE = {["Starfish"] = 40},
+
+    EQUIP_PETS = {["Starfish"] = 2,["Kodama"] = 7,["Tanchozuru"] = 2,},
+    USE_PETS_FOR_UPGRADE_SLOT = { "Starfish" },
+    REMOVE_PET_MAX_UPGRADE = { "Starfish" },
+
+    BUY_GEAR_SHOP = { "Watering Cans", "Trowel", "Recall Wrench", "Basic Sprinkler", "Advanced Sprinkler", "Medium Toy", "Medium Treat", "Godly Sprinkler", "Magnifying Glass", "Tanning Mirror", "Master Sprinkler", "Cleaning Spray", "Favorite Tool", "Harvest Tool", "Friendship Pot", "Levelup Lollipop","Trading Ticket","Grandmaster Sprinkler"},
+    USE_SPRINKLER = { "Basic Sprinkler","Watering Can","Advanced Sprinkler" },
+
+    PET_WEBHOOK_URL = "https://discord.com/api/webhooks/1376393476589092996/c-cSHfpoI-PeAAWX56CbgU_fjnYotyUZfq8o6G7gmno94varnmkI5tEnOO3cEvUtIBKl",
+    SEED_WEBHOOK_URL = "", 
+    NOTIFY_PETS = { "French Fry Ferret", "Mochi Mouse","Corrupted Kitsune", "Kitsune", "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee","Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox","Brontosaurus", "T-Rex","Spinosaurus" },
+    NOTIFY_PETS_WEIGHT = 10,
+    DISCORD_ID = "",
+    WEBHOOK_NOTE = "marmot",
+    SHOW_WEBHOOK_USERNAME = true,
+    SHOW_WEBHOOK_JOBID = false,
+}
+repeat
+    local success, err = pcall(function() loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/c916e5b90dc37c71ecf1ec00dfce3d5d.lua"))() end)
+    task.wait(20)
+until success
