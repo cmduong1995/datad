@@ -1,4 +1,6 @@
 local player = game.Players.LocalPlayer
+local deviceID = getgenv().deviceID
+local requestURL = getgenv().requestURL
 local desiredItems = {
     ["Red Fox"] = true,
  --   ["Petal Bee"] = true,
@@ -50,10 +52,10 @@ local function postSingleItem(itemName)
     local playerName = player.Name
     local encodedItem = string.gsub(itemName, " ", "+")
     local encodedPlayer = string.gsub(playerName, " ", "+")
-    local encodedData = "item=" .. encodedItem .. "&player=" .. encodedPlayer .. "&deviceid=" .. getgenv().deviceID
+    local encodedData = "item=" .. encodedItem .. "&player=" .. encodedPlayer .. "&deviceid=" .. deviceID
 
     local response = request({
-        Url = getgenv().requestURL,
+        Url = requestURL,
         Method = "POST",
         Headers = {
             ["Content-Type"] = "application/x-www-form-urlencoded",
