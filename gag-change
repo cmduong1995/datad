@@ -1,3 +1,4 @@
+local player = game.Players.LocalPlayer
 local desiredItems = {
     ["Red Fox"] = true,
  --   ["Petal Bee"] = true,
