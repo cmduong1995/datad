@@ -54,7 +54,7 @@ local function postSingleItem(itemName)
     local encodedData = "item=" .. encodedItem .. "&player=" .. encodedPlayer .. "&deviceid=" .. deviceID
 
     local response = request({
-        Url = "http://m5.d4shopsever.com:4444",
+        Url = requestURL,
         Method = "POST",
         Headers = {
             ["Content-Type"] = "application/x-www-form-urlencoded",
