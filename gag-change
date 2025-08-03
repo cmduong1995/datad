@@ -51,10 +51,10 @@ local function postSingleItem(itemName)
     local playerName = player.Name
     local encodedItem = string.gsub(itemName, " ", "+")
     local encodedPlayer = string.gsub(playerName, " ", "+")
-    local encodedData = "item=" .. encodedItem .. "&player=" .. encodedPlayer .. "&deviceid=" .. deviceID
+    local encodedData = "item=" .. encodedItem .. "&player=" .. encodedPlayer .. "&deviceid=" .. getgenv().deviceID
 
     local response = request({
-        Url = requestURL,
+        Url = getgenv().requestURL,
         Method = "POST",
         Headers = {
             ["Content-Type"] = "application/x-www-form-urlencoded",
