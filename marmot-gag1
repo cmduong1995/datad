@@ -1,5 +1,5 @@
 setfpscap(3)
-local script_key = getgenv().key
+script_key = getgenv().key
 getgenv().gagConfig = {
     -- Event:
     CRAFT_EVENT = { "Small Toy" },
