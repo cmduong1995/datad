@@ -1,4 +1,4 @@
-setfpscap(3)
+setfpscap(2)
 getgenv().gagConfig = {
     -- Event:
     CRAFT_EVENT = { "Small Toy" },
