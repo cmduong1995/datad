@@ -22,6 +22,7 @@ local desiredItems = {
  --   ["Mochi Mouse"] = true,
     ["Dilophosaurus"] = true,
     ["French Fry Ferret"] = true,
+    ["Lobster Thermidor"] = true,
 }
 
 
