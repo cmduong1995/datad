@@ -28,7 +28,7 @@ getgenv().gagConfig = {
     FAVOURITE_FRUIT_MUTATIONS = {},  -- Stop Autosell
     SKIP_HARVEST_MUTATIONS = {},  -- Stop Harvest
 
-    KEEP_PETS = { "Junkbot", "Gorilla Chef", "Lobster Thermidor","French Fry Ferret","Corrupted Kitsune","Kodama", "Moon Cat", "Raiju", "Toucan","Scarlet Macaw", "Hyacinth Macaw", "Mizuchi", "Tanchozuru", "Kappa", "Kitsune", "Koi", "Bald Eagle", "Dilophosaurus", "Spinosaurus", "Brontosaurus","Axolotl", "T-Rex", "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Night Owl", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "Red Giant Ant", "Pack Bee", "Blood Owl", "Chicken Zombie","Bear Bee", "Praying Mantis","Blood Kiwi", ["Capybara"] = 2, ["Starfish"] = 2,["Mochi Mouse"] = 2,["Sunny-Side Chicken"] = 2,["Kodama"] = 3, ["Corrupted Kodama"] = 3,["Spaghetti Sloth"] = 2},
+    KEEP_PETS = { "Junkbot", "Gorilla Chef", "Lobster Thermidor","French Fry Ferret","Corrupted Kitsune", "Moon Cat", "Raiju", "Toucan","Scarlet Macaw", "Hyacinth Macaw", "Mizuchi", "Tanchozuru", "Kappa", "Kitsune", "Koi", "Bald Eagle", "Dilophosaurus", "Spinosaurus", "Brontosaurus","Axolotl", "T-Rex", "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Night Owl", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "Red Giant Ant", "Pack Bee", "Blood Owl", "Chicken Zombie","Bear Bee", "Praying Mantis","Blood Kiwi", ["Capybara"] = 2, ["Starfish"] = 2,["Mochi Mouse"] = 2,["Sunny-Side Chicken"] = 2,["Kodama"] = 3, ["Corrupted Kodama"] = 3,["Spaghetti Sloth"] = 2},
     KEEP_PETS_WEIGHT = 5,
     KEEP_PETS_AGE = {["Starfish"] = 70},
 
