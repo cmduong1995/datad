@@ -5,15 +5,13 @@ getgenv().gagConfig = {
     BUY_TRAVELING_MERCHANT = { "Bee Egg", "Loquat", "Feijoa", "Pitcher Plant" },
     FORCE_COOK_MUTATION_ONLY = true,
     CLAIM_FOOD_CONNOISSEUR_REWARD = { "Culinarian Chest", "Gorilla Chef", "Gourmet Egg", "Sunny-Side Chicken", "Pet Shard Aromatic", "Cooking Cauldron", "Gourmet Seed Pack", "Bitter Melon Seed", "Pricklefruit Seed", "Butternut Squash Seed", "Spring Onion Seed", "Kitchen Crate", "Kitchen Flooring", "Kitchen Cart", "Smoothie Fountain" },
-    PLACE_COSMETIC = {"Cooking Cauldron"},
     -- General:
     AUTO_UPDATE_RESTART = true,
     REDEEM_CODES = {},
     EXTRA_PET_SLOTS = 5,
     EXTRA_EGG_SLOTS = 5,
-    EXTRA_PET_INVENTORY_SLOTS = 5,
     OPEN_ALL_SEED_PACK = true,
-
+    PLACE_COSMETIC = {"Cooking Cauldron"},
     MAX_PLANTS = 250,
     DESTROY_UNTIL_MIN_PLANTS = 200,
     DELETE_PLANTS_AFTER_MAX = { "Carrot", "Strawberry", "Blueberry", "Rose", "Orange Tulip", "Dezen", "Artichoke", "Onion", "Tomato", "Daffodil", "Cauliflower", "Raspberry", "Foxglove", "Corn", "Horsetail", "Twisted Tangle", "Jalapeno", "Watermelon", "Pumpkin", "Avocado", "Green Apple", "Apple", "Banana", "Lilac", "Taro Flower", "Bamboo", "Rafflesia", "Lingonberry", "Lucky Bamboo", "Veinpetal", "Crown Melon", "Peach", "Pineapple", "Amber Spine", "Coconut", "Cactus", "Dragon Fruit", "Mango", "Kiwi", "Bell Pepper", "Prickly Pear", "Pink Lily", "Purple Dahlia", "Tall Asparagus", "Sugarglaze", "Grape", "Loquat", "Mushroom", "Pepper", "Cacao", "Feijoa", "Pitcher Plant", "Grand Volcania", "Sunflower", "Grand Tomato", "Taco Fern", "Beanstalk", "Ember Lily", "Sugar Apple", "Burning Bud", "Giant Pinecone", "Elder Strawberry", "Chocolate Carrot", "Red Lollipop", "Nightshade", "Crocus", "Lavender", "Manuka Flower", "Wild Carrot", "Stonebite", "Candy Sunflower", "Peace Lily", "Mint", "Blue Lollipop", "Glowshroom", "Dandelion", "Nectarshade", "Succulent", "Bee Balm", "Pear", "Delphinium", "Liberty Lily", "Paradise Petal", "Cranberry", "Durian", "Papaya", "Moonflower", "Starfruit", "Lumira", "Violet Corn", "Nectar Thorn", "Cantaloupe", "Aloe Vera", "Firework Flower", "White Mulberry", "Dragon Sapling", "Horned Dinoshroom", "Boneboo", "Fruitball", "Enkaku", "Sakura Bush", "Easter Egg", "Eggplant", "Passionfruit", "Lemon", "Moonglow", "Moon Melon", "Blood Banana", "Celestiberry", "Guanabana", "Nectarine", "Honeysuckle", "Suncoil", "Bendboo", "Cocovine", "Parasol Flower", "Lily Of The Valley", "Firefly Fern", "Moon Mango", "Candy Blossom", "Cherry Blossom", "Lotus", "Venus Fly Trap", "Rosy Delight", "Traveler's Fruit", "Fossilight", "Tranquil Bloom", "Elephant Ears", "Bone Blossom", "Pink Tulip", "Noble Flower", "Purple Cabbage", "Sinisterdrip", "Mega Mushroom", "Ice Cream Bean", "Lime", "Crimson Vine" },
@@ -28,11 +26,11 @@ getgenv().gagConfig = {
     FAVOURITE_FRUIT_MUTATIONS = {},  -- Stop Autosell
     SKIP_HARVEST_MUTATIONS = {},  -- Stop Harvest
 
-    KEEP_PETS = { "Junkbot", "Gorilla Chef", "Lobster Thermidor","French Fry Ferret","Corrupted Kitsune", "Moon Cat", "Raiju", "Toucan","Scarlet Macaw", "Hyacinth Macaw", "Mizuchi", "Tanchozuru", "Kappa", "Kitsune", "Koi", "Bald Eagle", "Dilophosaurus", "Spinosaurus", "Brontosaurus","Axolotl", "T-Rex", "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Night Owl", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "Red Giant Ant", "Pack Bee", "Blood Owl", "Chicken Zombie","Bear Bee", "Praying Mantis","Blood Kiwi", ["Capybara"] = 2, ["Starfish"] = 2,["Mochi Mouse"] = 2,["Sunny-Side Chicken"] = 2,["Kodama"] = 3, ["Corrupted Kodama"] = 3,["Spaghetti Sloth"] = 2},
+    KEEP_PETS = { "Junkbot", "Lobster Thermidor","French Fry Ferret","Corrupted Kitsune", "Moon Cat", "Raiju", "Toucan","Scarlet Macaw", "Hyacinth Macaw", "Mizuchi", "Kitsune", "Koi", "Bald Eagle", "Dilophosaurus", "Spinosaurus", "Brontosaurus","Axolotl", "T-Rex", "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Night Owl", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "Red Giant Ant", "Pack Bee", "Blood Owl", "Chicken Zombie","Bear Bee", "Praying Mantis","Blood Kiwi", ["Capybara"] = 2, ["Starfish"] = 2,["Mochi Mouse"] = 1,["Sunny-Side Chicken"] = 2,["Kodama"] = 1, ["Corrupted Kodama"] = 3,["Spaghetti Sloth"] = 2,["Gorilla Chef"] = 2,["Tanchozuru"] = 5,["Kappa"] = 2},
     KEEP_PETS_WEIGHT = 5,
     KEEP_PETS_AGE = {["Starfish"] = 70},
 
-    EQUIP_PETS = {["Starfish"] = 2,["Koi"] = 5,"Bald Eagle", ["Rooster"] = 2, ["Blood Kiwi"] = 2, ["Capybara"] = 3,["Sunny-Side Chicken"] = 2,["Tanchozuru"] = 5,["Kodama"] = 5,["Gorilla Chef"] = 5},
+    EQUIP_PETS = {["Starfish"] = 2,["Koi"] = 5,"Bald Eagle", ["Rooster"] = 2, ["Blood Kiwi"] = 2, ["Capybara"] = 2,["Sunny-Side Chicken"] = 2,["Tanchozuru"] = 3,["Kodama"] = 1,["Gorilla Chef"] = 1,},
     USE_PETS_FOR_UPGRADE_SLOT = { "Starfish" },
     REMOVE_PET_MAX_UPGRADE = { "Starfish","Capybara" },
 
