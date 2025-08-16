@@ -18,7 +18,7 @@ getgenv().gagConfig = {
     BUY_EGGS = { "Bug Egg", "Bee Egg", "Paradise Egg", "Mythical Egg", "Rare Summer Egg", "Common Summer Egg", "Rare Egg", "Uncommon Egg" },
     PLANT_EGGS = { "Gourmet Egg","Dinosaur Egg", "Corrupted Zen Egg", "Zen Egg", "Primal Egg", "Anti Bee Egg", "Bee Egg", "Night Egg", "Bug Egg", "Paradise Egg", "Mythical Egg", "Common Summer Egg"},
     
-    BUY_SEED_SHOP = { "Elder Strawberry Seed","Elder Strawberry", "Giant Pinecone", "Burning Bud", "Sugar Apple", "Ember Lily", "Beanstalk", "Pepper", "Mushroom", "Grape", "Mango", "Cactus", "Bamboo", "Apple", "Pumpkin", "Watermelon", "Daffoldil", "Corn", "Tomato", "Orange Tulip", "Strawberry", "Carrot", "Dragon Fruit", "Coconut", "BlueBerry","Pineapple" },
+    BUY_SEED_SHOP = { "Romanesco", "Elder Strawberry Seed","Elder Strawberry", "Giant Pinecone", "Burning Bud", "Sugar Apple", "Ember Lily", "Beanstalk", "Pepper", "Mushroom", "Grape", "Mango", "Cactus", "Bamboo", "Apple", "Pumpkin", "Watermelon", "Daffoldil", "Corn", "Tomato", "Orange Tulip", "Strawberry", "Carrot", "Dragon Fruit", "Coconut", "BlueBerry","Pineapple" },
     KEEP_SEEDS = {"Wild Carrot","Mushroom","Grape","Dragon Fruit","Loquat","Lucky Bamboo","Soft Sunshine","Monoblooma","Paradise Petal","Onion","Jalapeno","Crown Melon","Sugarglaze","Tall Asparagus","Grand Tomato","Taco Fern","Artichoke","Dezen","Hinomai","Taro Flower","Orange Tulip","Blueberry"},
     KEEP_SEEDS_AFTER_MAX_PLANTS = { "Dragon Fruit", "BlueBerry","Daffoldil","Orange Tulip", "Strawberry", "Carrot","Prickly Pear","Loquat","Paradise Petal", "Burning Bud", "Ember Lily", "Mushroom", "Grape"},
     
