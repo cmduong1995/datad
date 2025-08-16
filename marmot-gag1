@@ -3,8 +3,8 @@ getgenv().gagConfig = {
     -- Event:
     CRAFT_EVENT = { "Anti Bee Egg" },
     BUY_TRAVELING_MERCHANT = { "Bee Egg", "Loquat", "Feijoa", "Pitcher Plant" },
-    FORCE_COOK_MUTATION_ONLY = true,
-    CLAIM_FOOD_CONNOISSEUR_REWARD = { "Culinarian Chest", "Gorilla Chef", "Gourmet Egg", "Sunny-Side Chicken", "Pet Shard Aromatic", "Cooking Cauldron", "Gourmet Seed Pack", "Bitter Melon Seed", "Pricklefruit Seed", "Butternut Squash Seed", "Spring Onion Seed", "Kitchen Crate", "Kitchen Flooring", "Kitchen Cart", "Smoothie Fountain" },
+    MAX_EVENT_RESTOCK_SHECKLES = 999_000_001,  -- Restock stop at 48m
+    BUY_EVENT_SHOP = { "Sprout Egg", "Spriggan" },
     -- General:
     AUTO_UPDATE_RESTART = true,
     REDEEM_CODES = {},
@@ -26,11 +26,11 @@ getgenv().gagConfig = {
     FAVOURITE_FRUIT_MUTATIONS = {},  -- Stop Autosell
     SKIP_HARVEST_MUTATIONS = {},  -- Stop Harvest
 
-    KEEP_PETS = { "Junkbot", "Lobster Thermidor","French Fry Ferret","Corrupted Kitsune", "Moon Cat", "Raiju", "Toucan","Scarlet Macaw", "Hyacinth Macaw", "Mizuchi", "Kitsune", "Koi", "Bald Eagle", "Dilophosaurus", "Spinosaurus", "Brontosaurus","Axolotl", "T-Rex", "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Night Owl", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "Red Giant Ant", "Pack Bee", "Blood Owl", "Chicken Zombie","Bear Bee", "Praying Mantis","Blood Kiwi", ["Capybara"] = 2, ["Starfish"] = 2,["Mochi Mouse"] = 1,["Sunny-Side Chicken"] = 2,["Kodama"] = 1, ["Corrupted Kodama"] = 3,["Spaghetti Sloth"] = 2,["Gorilla Chef"] = 2,["Tanchozuru"] = 5,["Kappa"] = 2},
+    KEEP_PETS = { "Golden Goose", "Spriggan","Junkbot", "Lobster Thermidor","French Fry Ferret","Corrupted Kitsune", "Moon Cat", "Raiju", "Toucan","Scarlet Macaw", "Hyacinth Macaw", "Mizuchi", "Kitsune", "Koi", "Bald Eagle", "Dilophosaurus", "Spinosaurus", "Brontosaurus","Axolotl", "T-Rex", "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Night Owl", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "Red Giant Ant", "Pack Bee", "Blood Owl", "Chicken Zombie","Bear Bee", "Praying Mantis","Blood Kiwi", ["Capybara"] = 2, ["Starfish"] = 2,["Mochi Mouse"] = 1,["Sunny-Side Chicken"] = 2,["Kodama"] = 1, ["Corrupted Kodama"] = 3,["Spaghetti Sloth"] = 2,["Gorilla Chef"] = 2,["Tanchozuru"] = 5,["Kappa"] = 2,["Golem"] = 2},
     KEEP_PETS_WEIGHT = 5,
     KEEP_PETS_AGE = {["Starfish"] = 70},
 
-    EQUIP_PETS = {["Starfish"] = 2,["Koi"] = 5,"Bald Eagle", ["Rooster"] = 2, ["Blood Kiwi"] = 2, ["Capybara"] = 2,["Sunny-Side Chicken"] = 2,["Tanchozuru"] = 3,["Kodama"] = 1,["Gorilla Chef"] = 1,},
+    EQUIP_PETS = {["Starfish"] = 2,["Koi"] = 5,"Bald Eagle", ["Rooster"] = 2, ["Blood Kiwi"] = 2, ["Capybara"] = 2,["Sunny-Side Chicken"] = 2,["Tanchozuru"] = 3,["Kodama"] = 1,["Gorilla Chef"] = 1},
     USE_PETS_FOR_UPGRADE_SLOT = { "Starfish" },
     REMOVE_PET_MAX_UPGRADE = { "Starfish","Capybara" },
 
@@ -39,9 +39,9 @@ getgenv().gagConfig = {
 
     PET_WEBHOOK_URL = "https://discord.com/api/webhooks/1376393476589092996/c-cSHfpoI-PeAAWX56CbgU_fjnYotyUZfq8o6G7gmno94varnmkI5tEnOO3cEvUtIBKl",
     SEED_WEBHOOK_URL = "", 
-    NOTIFY_PETS = { "Lobster Thermidor","French Fry Ferret","Corrupted Kitsune", "Kitsune", "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee","Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox","Brontosaurus", "T-Rex","Spinosaurus" },
-    NOTIFY_PETS_WEIGHT = 10,
-    DISCORD_ID = "",
+    NOTIFY_PETS = { "Golden Goose", "Lobster Thermidor","French Fry Ferret","Corrupted Kitsune", "Kitsune", "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee","Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox","Brontosaurus", "T-Rex","Spinosaurus" },
+    NOTIFY_PETS_WEIGHT = 7,
+    DISCORD_ID = "957565734769266748",
     WEBHOOK_NOTE = "marmot",
     SHOW_WEBHOOK_USERNAME = true,
     SHOW_WEBHOOK_JOBID = false,
