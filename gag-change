@@ -23,6 +23,7 @@ local desiredItems = {
     ["Dilophosaurus"] = true,
     ["French Fry Ferret"] = true,
     ["Lobster Thermidor"] = true,
+    ["Golden Goose"] = true,
 }
 
 
