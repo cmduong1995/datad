@@ -24,6 +24,7 @@ local desiredItems = {
     ["French Fry Ferret"] = true,
     ["Lobster Thermidor"] = true,
     ["Golden Goose"] = true,
+    ["Griffin"] = true,
 }
 
 
