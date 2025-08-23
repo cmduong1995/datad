@@ -25,11 +25,11 @@ getgenv().gagConfig = {
     FAVOURITE_FRUIT_MUTATIONS = {},  -- Stop Autosell
     SKIP_HARVEST_MUTATIONS = {},  -- Stop Harvest
 
-    KEEP_PETS = { "Gnome", "Griffin","Golden Goose", "Spriggan","Junkbot", "Lobster Thermidor","French Fry Ferret","Corrupted Kitsune", "Moon Cat", "Raiju", "Toucan","Scarlet Macaw", "Hyacinth Macaw", "Mizuchi", "Kitsune", "Koi", "Bald Eagle", "Dilophosaurus", "Spinosaurus", "Brontosaurus","Axolotl", "T-Rex", "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Night Owl", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "Red Giant Ant", "Pack Bee", "Blood Owl", "Chicken Zombie","Bear Bee", "Praying Mantis","Blood Kiwi", ["Capybara"] = 2, ["Starfish"] = 2,["Mochi Mouse"] = 1,["Sunny-Side Chicken"] = 2,["Kodama"] = 1, ["Corrupted Kodama"] = 3,["Spaghetti Sloth"] = 2,["Gorilla Chef"] = 2,["Tanchozuru"] = 5,["Kappa"] = 2,["Golem"] = 2},
+    KEEP_PETS = { "Gnome", "Griffin","Golden Goose", "Spriggan","Junkbot", "Lobster Thermidor","French Fry Ferret","Corrupted Kitsune", "Moon Cat", "Raiju", "Toucan","Scarlet Macaw", "Hyacinth Macaw", "Mizuchi", "Kitsune", "Koi", "Bald Eagle", "Dilophosaurus", "Spinosaurus", "Brontosaurus","Axolotl", "T-Rex", "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Night Owl", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "Red Giant Ant", "Pack Bee", "Blood Owl", "Chicken Zombie","Bear Bee", "Praying Mantis","Blood Kiwi", ["Capybara"] = 2, ["Starfish"] = 2,["Mochi Mouse"] = 1,["Sunny-Side Chicken"] = 8,["Kodama"] = 1, ["Corrupted Kodama"] = 3,["Spaghetti Sloth"] = 2,["Gorilla Chef"] = 2,["Tanchozuru"] = 5,["Kappa"] = 2,["Golem"] = 2},
     KEEP_PETS_WEIGHT = 5,
     KEEP_PETS_AGE = {["Starfish"] = 70},
 
-    EQUIP_PETS = {["Starfish"] = 2,["Koi"] = 5,"Bald Eagle", ["Rooster"] = 2, ["Blood Kiwi"] = 2, ["Capybara"] = 2,["Sunny-Side Chicken"] = 2,["Tanchozuru"] = 3,["Kodama"] = 1,["Gorilla Chef"] = 1},
+    EQUIP_PETS = {["Starfish"] = 2,["Koi"] = 5,["Sunny-Side Chicken"] = 5,["Tanchozuru"] = 3,["Kodama"] = 1,["Gorilla Chef"] = 1},
     USE_PETS_FOR_UPGRADE_SLOT = { "Starfish" },
     REMOVE_PET_MAX_UPGRADE = { "Starfish","Capybara" },
 
